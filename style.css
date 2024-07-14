@@ -120,8 +120,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
 }
 
 .product-three-left,
@@ -143,12 +141,50 @@ body{
     
 }
 
+.product-four-left,
+.product-four-right{
+    max-width: 50%;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    align-content: stretch;
+    flex-direction: column;
+}
+
+.product-four-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.product-five-left,
+.product-five-right{
+    max-width: 50%;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    align-content: stretch;
+    flex-direction: column;
+}
+
+.product-five-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 .product-title{
     max-width:  calc(1em*(calc(600 / 13)));
     width: 100%;
     text-align: center;
     color: black;
-    margin: 25;
+    font-size: 24;
 }
 
 .product-title-two{
@@ -156,7 +192,7 @@ body{
     width: 100%;
     text-align: center;
     color: white;
-    margin: 25;
+    font-size: 50px;
 }
 
 .product-title-three{
@@ -164,7 +200,23 @@ body{
     width: 100%;
     text-align: center;
     color: black;
-    margin: 25;
+    font-size: 50px;
+}
+
+.product-title-four{
+    max-width:  calc(1em*(calc(600 / 13)));
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+}
+
+.product-title-five{
+    max-width:  calc(1em*(calc(600 / 13)));
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 50px;
 }
 
 .product-container {
@@ -177,8 +229,10 @@ body{
     text-align: center;
     text-wrap: balance;
     line-height: 150%;
-    font-size: 16px;
+    font-size: 19px;
     font-weight: normal;
+    padding: 30px 60px 30px 60px;
+    margin-top: -20px;
 }
 
 .product-description-two{
@@ -188,7 +242,8 @@ body{
     line-height: 150%;
     font-size: 16px;
     font-weight: normal;
-    color: white
+    color: white;
+    font-size: 24px;
 }
 
 .product-description-three{
@@ -196,8 +251,34 @@ body{
     text-align: center;
     text-wrap: balance;
     line-height: 150%;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: normal;
+    padding: 45px 90px 45px 90px;
+    margin-top: -45px;
+}
+
+.product-description-four{
+    max-width: calc(1em*(calc(600 / 13)));
+    text-align: center;
+    text-wrap: balance;
+    line-height: 150%;
+    font-size: 19px;
+    font-weight: normal;
+    padding: 30px 60px 30px 60px;
+    margin-top: -20px;
+    color: black;
+}
+
+.product-description-five{
+    max-width: calc(1em*(calc(600 / 13)));
+    text-align: center;
+    text-wrap: balance;
+    line-height: 150%;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 30px 60px 30px 60px;
+    margin-top: -20px;
+    color: white;
 }
 
 .product-button{
@@ -208,6 +289,7 @@ body{
     text-align: center;
     margin: auto;
     margin-top: 10px;
+    font-size: 16px;
 }
 
 .product-button-two{
@@ -219,6 +301,41 @@ body{
     text-align: center;
     margin: auto;
     margin-top: 10px;
+}
+
+.product-button-three{
+    border: 1px solid black;
+    color: black;
+    max-width: max-content;
+    padding: 5px 20px 5px 20px;
+    border-radius: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.product-button-four{
+    border: 1px solid black;
+    max-width: max-content;
+    padding: 5px 20px 5px 20px;
+    border-radius: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.product-button-five{
+    border: 1px solid white;
+    color: white;
+    max-width: max-content;
+    padding: 5px 20px 5px 20px;
+    border-radius: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 16px;
 }
 
 
