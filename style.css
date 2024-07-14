@@ -89,6 +89,7 @@ body{
     display: flex;
 } 
 
+
 .product-left,
 .product-right{
     max-width: 50%;
@@ -101,9 +102,7 @@ body{
     flex-direction: column;
 }
 .product-right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    align-content: center;
 }
 .product-two-left,
 .product-two-right{
@@ -121,6 +120,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
     
 }
 
