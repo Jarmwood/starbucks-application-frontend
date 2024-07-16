@@ -3,6 +3,8 @@ body {
   font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial,
     sans-serif;
 }
+
+
 .container {
   padding: 30px 60px 30px 60px;
   margin: auto;
@@ -16,9 +18,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0px 4px 5px 0px rgba(191, 122, 122, 0.75);
-  -webkit-box-shadow: 0px 4px 5px 0px rgba(191, 122, 122, 0.75);
-  -moz-box-shadow: 0px 4px 5px 0px rgba(191, 122, 122, 0.75);
+  box-shadow: 0px 4px 5px 0px rgba(231, 230, 230, 0.75);
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(147, 145, 145, 0.75);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(209, 204, 204, 0.75);
 }
 
 .navbar-left svg {
@@ -360,26 +362,56 @@ body {
   background-color: rgba(0, 0, 0, 0.06);
 }
 
-.container{
-  margin-bottom: 40px;
-  box-shadow: 0px 4px 5px 0px rgba(253, 252, 252, 0.75);
-  -webkit-box-shadow: 0px 4px 5px 0px rgba(203, 199, 199, 0.75);
-  -moz-box-shadow: 0px 4px 5px 0px rgba(253, 250, 250, 0.75);
-}
-
+.footer-break,
 .footer-info {
-  column-count: 5;
-  -webkit-column-count: 5;
-  -moz-column-count: 5;
-  column-gap: 14px;
-  -webkit-column-gap: 14px;
-  -moz-column-gap: 14px;
-  column-rule: 1px hidden #000000;
-  -webkit-column-rule: 1px hidden #000000;
-  -moz-column-rule: 1px hidden #000000;
-}
-.footer-break {
   border-top: 1px solid lightgrey;
   margin-top: 20px;
-  padding: 
+}
+
+.footer-info{
+  display:flex !important;
+  justify-content: space-between;
+  font-size: 24px;
+  padding: 40px 100px;
+  color: rgb(166, 165, 165);
+  height:auto;
+  h4 {
+    color: black;
+    
+    margin-bottom: 10px;
+  }
+  li{
+    list-style-type: none;
+    font-weight: lighter !important;
+  }
+  li:hover {
+    color: black
+  }
+}
+
+.social-media-icons{
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  a{
+    padding: 10px
+  }
+}
+
+.universal-footer{
+  font-size: 24px;
+  list-style: none;
+  li{
+    list-style-type: none;
+    margin-bottom: 15px;
+    font-weight: lighter !important;
+  }
+}
+
+.trade-mark{
+  color: rgb(180, 178, 178);
+  font-size: 17px;
+  font-weight: lighter;
+  margin-left: 40px;
+  margin-bottom: 50px;
 }
